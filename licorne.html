@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel ="stylesheet" href = "style.css"/>  
+        <title>Licorne</title>
+    </head>
+
+    <body>
+        <!--Débur de la barre de navigation-->
+        <nav>
+            <a href="#">MyUnicorn</a> 
+            
+            <!-- Début : Menu-->
+            <div class="onglet">
+                <a href="#principe">LE PRINCIPE</a> 
+                <a href="#licorne">NOS LICORNES</a>
+                <a href="#localisation">NOUS TROUVER</a>
+            </div>
+            <!-- Fin : Menu-->
+        </nav>
+
+        <!--Fin de la Barre de navigation-->
+
+        <!--Début du corps de la page-->
+        <section  class ="main">
+
+            <div class="titre">
+                <h1>Un jour, une licorne</h1>
+            </div>
+            
+            <!--Début du contenu blanche de la page-->
+            
+            <section class="contenu-blanc">
+
+                <div class ="contenu1" id="principe">
+                    <h2>
+                        <i class="fa-regular fa-star"></i> Le principe 
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+                    <P>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.  </p>
+                    
+                </div>
+
+                <div class="contenu2" id ="licorne">
+                    <h2>
+                        <i class="fa-regular fa-star"></i> Nos licornes
+                    </h2>
+                    <div class="licorne-image">
+
+                        <div class="licorne">
+                            <figure>
+                                <img src="./Assets/photo1.jpg" alt="licorne">
+                                <figcaption> Lulu Confetty</figcaption>
+                            </figure>
+                        </div>
+    
+                        <div class="licorne">
+                            <figure>
+                                <img src="./Assets/photo2.jpg" alt="licorne">
+                                <figcaption> Lapillon Magik</figcaption>
+                            </figure>
+                        </div>
+    
+                        <div class="licorne">
+                            <figure>
+                                <img src="./Assets/photo3.jpg" alt="licorne">
+                                <figcaption> El Ninjacorn</figcaption>
+                            </figure>
+                        </div>
+    
+                        <div class="licorne">
+                            <figure>
+                                <img src="./Assets/photo4.jpg" alt="licorne">
+                                <figcaption> Sweety Candy</figcaption>
+                            </figure>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <!--Fin image licorne-->
+    
+
+                <div class="contenu3" id= "localisation">
+                    <h2>
+                        <i class="fa-regular fa-star"></i> Nous trouver
+                    </h2>
+
+                    <div class="information-localisation">
+                        <!--MAP-->
+                        <div class="information-left">                                        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13068.14900747176!2d47.5267835007281!3d-18.90569037615905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1644090911139!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+
+                        <!-- Début : Information sur la localisation-->
+
+                        <section class="information-right">
+
+                            <div class="Adresse">
+                                <h2>Notre élevage de licornes est situé au :</h2>
+                                <p>Analakely Market</p>
+                                <p>Arabe Rahezavana, Antananarivo, Madagascar</p>
+                                <p>01.22.45.67.90</p>
+                            </div>   
+
+                            <div class ="register">
+
+                                <h2>Newsletter</h2>
+                                <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+
+                                <form>          
+                                    <input type="email"  placeholder="  votre@email.fr" size="30" maxlength="10" /> 
+                                </form>
+
+                                <div class="boutton">
+                                    <input type="submit" value="Valider">
+                                </div>
+
+
+                            </div>
+
+                        </section>
+
+                        <!-- Fin : Information sur la localisation-->
+                </div>
+
+            </section>
+            <!--Fin du contenu blanche de la page-->
+        </section>
+        <!--Fin du corps de la page-->
+    </body>
+
+    <!--Pied de page-->
+    <footer>
+        <p> 2016 &COPY; WebForce3 </p>
+    </footer>
+
+</html>

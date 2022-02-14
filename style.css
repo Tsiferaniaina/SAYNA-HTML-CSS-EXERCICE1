@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+/*barre de navigation*/
+nav {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    background-size: cover;
+    background-color: #C55394;
+    justify-content: space-between;   
+}
+
+nav a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
+/*Début : style menu*/
+nav .onglet a{
+    color:#fff;
+    font-size: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+nav .onglet :hover{
+    padding: 10px;
+    background-color: #EB43A3;
+    
+}
+/*Fin : style menu*/
+
+/*fin de la barre de navigation*/
+
+/*Début du corps de la page*/
+
+.main{
+    margin-top: -20px;
+    padding-bottom: 50px;
+    background-size: 150px;
+    background: url('./Assets/background.png');       
+}
+
+.main .titre {  
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 400px;
+    background-repeat: no-repeat;
+    background: url('./Assets/rainbow.png');
+}
+
+.main .titre h1{
+    margin-top: 50px;
+    color: #C55394;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    
+}
+/*Début du contenu blanche de la page*/
+
+.main .contenu-blanc{
+    padding: 50px 20px;
+    margin: -10px 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(158, 151, 151);
+    
+}
+
+.main .contenu-blanc .contenu1{
+    margin-top: -30px;
+}
+
+.main .contenu-blanc .contenu1 h2{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+.main .contenu-blanc .contenu1 p{
+    font-size: 14px;
+}
+
+.main .contenu-blanc .contenu2{
+    margin-top: 60px;
+}
+
+.main .contenu-blanc .contenu2 h2{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+/*Début image licorne*/
+
+.main .contenu-blanc .contenu2 .licorne-image{
+    display: flex;
+}
+
+.main .contenu-blanc .contenu2 figure{
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+.main .contenu-blanc .contenu2 img{
+    width: 245px;
+    height: 245px;
+    margin-right: 10px;
+}
+
+.main .contenu-blanc .contenu2 .licorne-image  figcaption{
+    width: 245px;
+    color: #fff;
+    padding-top: 5px;
+    margin-top: -27px; 
+    text-align: center;
+    position: absolute;
+    background-color: rgba(24,24,24,0.8);
+
+}
+
+.main .contenu-blanc .contenu2 figure :hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+/*Fin image licorne*/
+
+.main .contenu-blanc .contenu3{
+    margin-top: 60px;
+}
+
+.main .contenu-blanc .contenu3 h2{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+.main .contenu-blanc .contenu3 .information-localisation{
+    display: flex;  
+}
+
+.main .contenu-blanc .contenu3 .information-localisation .information-right{
+    margin-left: 50px;
+}
+
+.main .contenu-blanc .contenu3 .information-localisation .information-right h2{
+    font-size: 20px;
+    color:#C55394;
+}
+
+.main .contenu-blanc .contenu3 .information-localisation .information-right p{
+    font-size: 15px;
+}
+
+.main .contenu-blanc .contenu3 .information-localisation .information-right .register{
+    margin-top: 70px ;
+
+}
+.main .contenu-blanc .contenu3 .information-localisation .information-right .register .boutton input{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px ;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color:  #C55394;
+}
+/*Fin du contenu blanche de la page*/
+/*Fin du corps de la page*/
+
+/*Pied de page*/
+footer {
+    padding: 1px;
+    margin-top: -10px;
+    text-align: right;
+    color: #fff;
+    background-color: #C55394;
+}
+
+footer p{
+    margin-right:20px;
+}
+
+    
